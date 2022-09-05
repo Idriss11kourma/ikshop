@@ -1,0 +1,71 @@
+/*Initiation de la page*/
+html,
+body {
+	min-width: 300px;
+	color: #4D4E53;
+	background-color: #FFF;
+	font-family: "opens sans", Arial, sans-serif;
+	line-height: 1.5;
+}
+
+/*Design du menu lateral*/
+#sidebar {
+	position: fixed;
+	width: 300px;
+	top: 0;
+	left: 0;
+	height: 100%;
+	border-right: solid;
+	border-color: rgba(0, 22, 22, 0.4);
+}
+#sidebar h2 {
+	text-align: center;
+	font-weight: thin;
+	color: black;
+	font-size: 1.2em;
+	margin: 10px;
+}
+#sidebar ul {
+	height: 88%;
+	padding: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+#sidebar li {
+	color: #4D4E53;
+	position: relative;
+	list-style: none;
+	width: 100%;
+	border-top: 1px solid;
+}
+#sidebar a {
+	display: block;
+	padding: 10px 30px;
+	color: #4D4E53;
+	text-decoration: none;
+	cursor: pointer;
+}
+/*Design contenu du menu lateral*/
+#banner .contenu h2 {
+	text-align: center;
+	padding-top: auto;
+	font-size: 1.5em;
+	height: 15px;
+}
+.trait {
+	border: 2px solid black;
+	width: 50%;
+	margin: 10px auto;
+}
+#banner p {
+	margin: 300px;
+	padding: 10px;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+#banner .contenu2 {
+	margin: 300px;
+	padding: -10px;
+	margin-right: 20px;
+	margin-top: -315px;
+}

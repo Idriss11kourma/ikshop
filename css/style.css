@@ -1,0 +1,189 @@
+/*Initiation de la page*/
+* {
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	font-family: 'opens sans', sans-serif, arial, verdana, tahoma;
+}
+
+/*Design du menu-lateral*/
+#menu-lateral {
+	background-color: #6D0A19;
+	width: 250px;
+	height: 100%;
+	padding: 20px 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+#menu-lateral #profil {
+	margin-bottom: 10px;
+	text-align: center;
+	color: #FFF;
+}
+#profil img {
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	border-radius: 50%;
+	border: 10px solid #C30A4C;
+}
+#profil p {
+	margin-top: 2px;
+	font-size: 1.5em;
+}
+#profil h3 {
+	font-size: 1.5em;
+}
+/*Design de la liste*/
+#menu-lateral ul li a {
+	display: block;
+	padding: 10px 30px;
+	color: #FFF;
+	border-bottom: 1px solid #C30A4C;
+	font-size: 16px;
+	position: relative;
+}
+#menu-lateral ul li a:hover, .active {
+	background-color: #FFF;
+	color: #F90067 !important;
+	/*Animation de defil*/
+	border-right: 2px solid #D34371;
+
+
+}
+/*Design du contenu du blog*/
+#section {
+	width: calc(100% - 250px);
+	margin-left: 250px;
+}
+#section .topBar {
+	background-color: #C30A4C;
+	height: 55px;
+	width: 100%;
+	padding: 0 30px;
+	align-items: center;
+	display: flex;
+}
+#section .topBar a h2 {
+	color: #FFF;
+	font-size: 2.3rem;
+}
+#section .topBar a h2:hover {
+	color: #FFC0CB;
+}
+/*Design du blog banniere*/
+#section #banner {
+	height: 220px;
+	background-color: #F90067;
+	padding: 0 30px;
+	align-items: center;
+	color: #FFF;
+}
+.titre {
+	text-align: center;
+	padding-top: 50px;
+	font-size: 1.5em;
+}
+.trait {
+	border: 3px solid lightyellow;
+	width: 100%;
+	margin: 10px auto;
+}
+#banner button {
+	height: 6vh;
+	color: #6D0A19;
+	font-size: 1.5em;
+	text-align: center;
+	width: 20%;
+	align-items: center;
+	margin: 10px auto;
+	display: block;
+}
+/*Design de la section des articles*/
+.article {
+	height: 250px;
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	padding: 0 30px;
+}
+.article img {
+	width: 200px;
+}
+.article .contenu {
+	margin-left: 10px;
+	font-size: 20px;
+}
+/*Design de la section article 2*/
+.article2 {
+	height: 250px;
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	padding: 0 30px;
+}
+.article2 img {
+	width: 200px;
+}
+.article2 .contenu2 {
+	margin-left: 10px;
+	font-size: 20px;
+}
+/*Design du blog banniere 2*/
+#section #banner2 {
+	height: 220px;
+	background-color: #F90067;
+	padding: 0 30px;
+	align-items: center;
+	color: #FFF;
+}
+.titre2 {
+	text-align: center;
+	padding: 50px;
+	font-size: 1.5em;
+}
+/*Design de la section article 3*/
+.article3 {
+	height: 250px;
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	padding: 0 30px;
+}
+.article3 img {
+	width: 200px;
+}
+.article3 .contenu3 {
+	margin-top: 10px;
+	font-size: 20px;
+}
+/*Design de la section article 4*/
+.article4 {
+	height: 250px;
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	padding: 0 30px;
+}
+.article4 img {
+	width: 200px;
+}
+.article4 .contenu4 {
+	margin-top: 10px;
+	font-size: 20px;
+}
+/*Design de la section banner3*/
+#section #banner3 {
+	height: 50px;
+	background-color: #C30A4C;
+	padding: 0 30px;
+	align-items: center;
+	color: #FFF;
+}
+.titre3 p {
+	text-align: center;
+	padding: 15px;
+}
